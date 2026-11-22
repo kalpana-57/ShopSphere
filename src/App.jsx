@@ -10,9 +10,9 @@ import {
   Truck,
 } from "lucide-react";
 
-import Navbar from "./components/navbar";
-import ProductCard from "./components/productcard";
-import Cart from "./components/cart";
+import Navbar from "./components/Navbar";
+import ProductCard from "./components/ProductCard";
+import Cart from "./components/Cart";
 import products from "./data/products";
 
 import "./App.css";
