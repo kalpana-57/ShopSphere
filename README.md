@@ -30,7 +30,17 @@ A modern, responsive mini e-commerce website built using **React and Vite**. Sho
 
 ## 📸 Screenshots
 
-Screenshots of the application can be added here.
+### Homepage
+![ShopSphere Homepage](homepage.png)
+
+### Products
+![ShopSphere Products](products.png)
+
+### Shopping Cart
+![ShopSphere Cart](cart.png)
+
+### Mobile Responsive Design
+![ShopSphere Mobile](mobile.png)
 
 ## 🚀 Getting Started
 
