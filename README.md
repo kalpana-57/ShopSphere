@@ -1,16 +1,103 @@
-# React + Vite
+# 🛍️ ShopSphere – Mini E-commerce Store
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive mini e-commerce website built using **React and Vite**. ShopSphere provides a simple online shopping experience with product browsing, search, category filters, shopping cart, and wishlist functionality.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**[Visit ShopSphere](https://shopsphere-lilac.vercel.app)**
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🛒 Add products to shopping cart
+- ➕ Increase and decrease product quantities
+- 🗑️ Remove products from cart
+- ❤️ Add and remove products from wishlist
+- 🔍 Search products by name
+- 📂 Filter products by category
+- 💾 Save cart and wishlist using Local Storage
+- 📱 Responsive design for mobile and desktop
+- 🚚 Free shipping message for orders above ₹2,999
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- JavaScript
+- Vite
+- HTML5
+- CSS3
+- Lucide React
+- Browser Local Storage
+
+## 📸 Screenshots
+
+Screenshots of the application can be added here.
+
+## 🚀 Getting Started
+
+Follow these steps to run the project locally.
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/kalpana-57/ShopSphere.git
+```
+
+### 2. Navigate to the project folder
+
+```bash
+cd ShopSphere
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
+
+```bash
+npm run dev
+```
+
+Open the local URL displayed in your terminal.
+
+## 📁 Project Structure
+
+```text
+ShopSphere/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   │   ├── Cart.jsx
+│   │   ├── Navbar.jsx
+│   │   └── ProductCard.jsx
+│   ├── data/
+│   │   └── products.js
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+├── index.html
+├── package.json
+└── vite.config.js
+```
+
+## 💡 Project Purpose
+
+This project was developed to practice frontend development using React, component-based architecture, state management, reusable components, responsive styling, and browser Local Storage.
+
+**Note:** This is a frontend portfolio demonstration project. It does not include a real payment gateway or backend.
+
+## 👩‍💻 Author
+
+**Kalpana Kayala**
+
+- GitHub: [@kalpana-57](https://github.com/kalpana-57)
+- Project Repository: [ShopSphere](https://github.com/kalpana-57/ShopSphere)
+- Live Website: [ShopSphere](https://shopsphere-lilac.vercel.app)
+
+---
+
+⭐ If you like this project, consider giving the repository a star!
